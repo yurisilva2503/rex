@@ -40,32 +40,27 @@ Para rodar a aplicação localmente, siga o fluxo de setup abaixo:
    composer install
    ```
 
-3. **Instale as dependências Frontend com NPM:**
-   ```bash
-   npm install
-   ```
-
-4. **Configuração do `.env`:**
+3. **Configuração do `.env`:**
    Copie a estrutura do `.env.example` para um novo `.env` (se ainda não existir) e configure a conexão com o banco de dados:
    ```bash
    cp .env.example .env
    ```
    *Edite `DB_DATABASE`, `DB_USERNAME` e `DB_PASSWORD` conforme as configurações da sua máquina.*
 
-5. **Gerar a Chave do APP:**
+4. **Gerar a Chave do APP:**
    ```bash
    php artisan key:generate
    ```
 
-6. **Rodar as Migrações:**
+5. **Rodar as Migrações:**
    ```bash
    php artisan migrate
    ```
 
-7. **Iniciar o Servidor de Desenvolvimento:**
+6. **Iniciar o Servidor de Desenvolvimento:**
    Para rodar de forma simultânea e reativa o servidor do Laravel e a construção de assets do Vite, apenas rode:
    ```bash
-   npm run dev
+   php artisan serve
    ```
 
 Seu ambiente deverá ficar ativo e respondendo na porta definida, normalmente acessível em `http://localhost:8000`.
