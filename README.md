@@ -56,7 +56,7 @@ Para rodar a aplicação localmente, siga o fluxo de setup abaixo:
    ```
 
 6. **Iniciar o Servidor de Desenvolvimento:**
-   Para rodar de forma simultânea e reativa o servidor do Laravel e a construção de assets do Vite, apenas rode:
+   Para rodar de forma simultânea e reativa o servidor do Laravel apenas rode:
    ```bash
    php artisan serve
    ```
