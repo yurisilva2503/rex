@@ -4,8 +4,6 @@
 
 <h1 align="center">Rex</h1>
 
----
-
 ## Sobre o Projeto
 
 O **Rex** é uma aplicação web focada na gestão de indicadores de desempenho.
