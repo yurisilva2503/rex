@@ -1,0 +1,108 @@
+.dt-search {
+    margin-bottom: 12px !important;
+    text-align: end !important;
+}
+
+.dt-buttons {
+    text-align: start !important;
+}
+
+div.dt-paging ul.pagination{
+    justify-content: end !important;
+}
+
+.buttons-copy {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0D6EFD;
+    --bs-btn-border-color: #0D6EFD;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0769fc;
+    --bs-btn-hover-border-color: #0769fc;
+    --bs-btn-focus-shadow-rgb: 7, 105, 252;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0769fc;
+    --bs-btn-active-border-color: #0769fc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0D6EFD;
+    --bs-btn-disabled-border-color: #0D6EFD;
+
+}
+
+/* Estilo para os botões de tema */
+.btn-group-sm .btn-outline-secondary {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-color: #dee2e6;
+}
+
+.btn-group-sm .btn-check:checked + .btn-outline-secondary {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
+
+/* Transição suave ao mudar tema */
+/* * {
+    transition: 0.1s ease, color 0.1s ease, border-color 0.1s ease;
+} */
+
+/* Ajustes para o tema escuro */
+[data-bs-theme="dark"] .btn-outline-secondary {
+    border-color: #495057;
+    color: #dee2e6;
+}
+
+[data-bs-theme="dark"] .btn-check:checked + .btn-outline-secondary {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
+
+[data-bs-theme="dark"] div:where(.swal2-container) div:where(.swal2-popup) {
+    background: #0d1b36 !important
+}
+
+[data-bs-theme="dark"]  div:where(.swal2-container) h2:where(.swal2-title) {
+    color: #fff !important;
+}
+
+[data-bs-theme="dark"]  div:where(.swal2-container) div:where(.swal2-html-container) {
+    color: #fff !important;
+}
+
+.bg-indicator-strategic {
+    background-color: #499AFD !important;
+}
+
+.bg-indicator-tactical {
+    background-color: #FE4949 !important;
+}
+
+.bg-indicator-monitoring {
+    background-color: #d89c00 !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
+    background-color: #0d6efd !important;
+}
+
+.modal {
+    position: fixed !important;
+}
+
+body.modal-open {
+    overflow: hidden;
+    padding-right: 0 !important;
+}
+
+body:not(.modal-open){
+    padding-right: 0px !important;
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: normal;
+    gap: 10px;
+}
